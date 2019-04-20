@@ -89,6 +89,7 @@
         "numeric": "cpp",
         "random": "cpp",
         "regex": "cpp",
-        "optional": "cpp"
+        "optional": "cpp",
+        "set": "cpp"
     }
 }
