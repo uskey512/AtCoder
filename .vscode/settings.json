@@ -6,5 +6,8 @@
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "runner.languageMap": {
         "cpp": "/Users/y.uehara/vsc_run/cpp.sh"
+    },
+    "files.associations": {
+        "vector": "cpp"
     }
 }
