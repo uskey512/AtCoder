@@ -3,19 +3,18 @@
 #include <string>
 #include <algorithm>
 #include <vector>
+#include <set>
 
 using namespace std;
 
 int main() {
     int n, tmp; 
     cin >> n;
-    vector<int> s;
+    set<int> s;
     for (int i = 0; i < n; ++i){
         cin >> tmp;
-        s.push_back(tmp);
+        s.insert(tmp);
     }
-    sort(s.begin(), s.end());
-    s.erase(unique(s.begin(), s.end()), s.end());
 
     cout << s.size() << endl;
 }
